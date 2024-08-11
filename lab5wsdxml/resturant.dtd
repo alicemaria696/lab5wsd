@@ -1,0 +1,12 @@
+<!ELEMENT restaurant (placename, cafename, menu, food)>
+<!ELEMENT placename (place+)>
+<!ELEMENT place (#PCDATA)>
+<!ELEMENT cafename (cafe+, time+)>
+<!ELEMENT cafe (#PCDATA)>
+<!ELEMENT time (#PCDATA)>
+<!ELEMENT menu (foodtype+)>
+<!ELEMENT foodtype (#PCDATA)>
+<!ELEMENT food (fooditem+)>
+<!ELEMENT fooditem (name, cost)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT cost (#PCDATA)>

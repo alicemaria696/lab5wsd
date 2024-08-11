@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="restaurant">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="placename">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="place" type="xs:string" maxOccurs="unbounded"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="cafename">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="cafe" type="xs:string" maxOccurs="unbounded"/>
+                            <xs:element name="time" type="xs:string" maxOccurs="unbounded"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="menu">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="foodtype" type="xs:string" maxOccurs="unbounded"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="food">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="fooditem" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="name" type="xs:string"/>
+                                        <xs:element name="cost" type="xs:string"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="restaurant.xsl"?>
+<!DOCTYPE restaurant SYSTEM "resturant.dtd">
+<?xml-model href="resturant.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<restaurant>
+    <placename>
+        <place>HSR</place>
+        <place>Koramangala</place>
+        <place>Madivala</place>
+        <place>ChurchStreet</place>
+    </placename>
+    <cafename>
+        <cafe>Rameshwaram</cafe>
+        <time>6AM - 11PM</time>
+        <cafe>Akkacafe</cafe>
+        <time>9AM - 10PM</time>
+        <cafe>Truffles</cafe>
+        <time>11AM - 12PM</time>
+        <cafe>Alchemy</cafe>
+        <time>10AM - 11PM</time>
+    </cafename>
+    <menu>
+        <foodtype>Veg</foodtype>
+        <foodtype>Non-veg</foodtype>
+        <foodtype>Keto diet</foodtype>
+    </menu>
+    <food>
+        <fooditem>
+            <name>Pasta</name>
+            <cost>350/-</cost>
+        </fooditem>
+        <fooditem>
+            <name>Noodles</name>
+            <cost>200/-</cost>
+        </fooditem>
+        <fooditem>
+            <name>Pizza</name>
+            <cost>300/-</cost>
+        </fooditem>
+        <fooditem>
+            <name>Burger</name>
+            <cost>190/-</cost>
+        </fooditem>
+        <fooditem>
+            <name>Tiramisu</name>
+            <cost>290/-</cost>
+        </fooditem>
+        <fooditem>
+            <name>Milkshakes</name>
+            <cost>190/-</cost>
+        </fooditem>
+    </food>
+</restaurant>
